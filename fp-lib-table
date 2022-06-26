@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Noname_filter")(type "KiCad")(uri "/home/virgin/test1/round_dev_2_button/Noname_filter.pretty")(options "")(descr ""))
+  (lib (name "Chinese_emi_filter")(type "KiCad")(uri "${KIPRJMOD}/Chinese_emi_filter.pretty")(options "")(descr ""))
+)
