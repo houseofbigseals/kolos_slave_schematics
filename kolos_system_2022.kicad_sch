@@ -4746,6 +4746,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "Led1_in" (shape input) (at 311.15 167.64 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 0e5c22a3-1afa-4683-add5-42f25f420fef)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 320.7598 167.7194 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "SCL" (shape input) (at 388.62 130.81 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 111b461b-c4ca-49e5-866a-827957f3f82b)
@@ -5031,6 +5038,13 @@
     (uuid 793ba85f-578d-4e09-a04a-ec781b8bc8ea)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 257.0298 272.9706 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "Reset_in" (shape input) (at 311.15 171.45 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 79fc4534-819c-44d3-ba3d-4af77b56f31b)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 321.4855 171.5294 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
   (global_label "SDA" (shape input) (at 262.89 212.09 180) (fields_autoplaced)
@@ -6171,6 +6185,22 @@
     )
     (pin "1" (uuid 4f5e48c1-2b89-4b19-bbcb-701969ba34dd))
     (pin "2" (uuid f39f7773-e0f2-4f5a-ad47-f6a442ab657f))
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Male") (at 306.07 167.64 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 2ef0e97d-70a0-4db7-b378-ebd1da6d1fac)
+    (property "Reference" "J1" (id 0) (at 306.705 165.1 0))
+    (property "Value" "Conn_01x01_Male" (id 1) (at 306.705 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (id 2) (at 306.07 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 306.07 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8cfc07fb-e447-40e6-99b8-fd702c27af7a))
   )
 
   (symbol (lib_id "Device:R") (at 163.83 187.96 90) (unit 1)
@@ -7881,6 +7911,22 @@
     (pin "2" (uuid 920f8cfa-e27e-4b46-90a5-1893d5136ef8))
   )
 
+  (symbol (lib_id "Connector:Conn_01x01_Male") (at 306.07 171.45 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid c9d2d0e8-69ee-4eb5-92fc-a6f3749a34e3)
+    (property "Reference" "J2" (id 0) (at 306.705 166.37 0))
+    (property "Value" "Conn_01x01_Male" (id 1) (at 306.705 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (id 2) (at 306.07 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 306.07 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6e122188-50ab-4053-8dd9-98595d730941))
+  )
+
   (symbol (lib_id "Connector:Conn_01x01_Male") (at 345.44 53.34 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c9e542de-7b77-4a8e-ae1d-6f2a8b451d96)
@@ -8765,10 +8811,17 @@
     (path "/e92e112d-ec73-4f06-a784-9effca721966"
       (reference "I2C-3") (unit 1) (value "Conn_01x04") (footprint "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical")
     )
+<<<<<<< HEAD
     (path "/fa21e2f7-d34d-43aa-912c-a5e81ffcf9a4"
       (reference "J1") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
     )
     (path "/0d995815-0174-46af-9a65-98edd7e158d0"
+=======
+    (path "/2ef0e97d-70a0-4db7-b378-ebd1da6d1fac"
+      (reference "J1") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
+    (path "/c9d2d0e8-69ee-4eb5-92fc-a6f3749a34e3"
+>>>>>>> 94cd2e85a97b3f583d28dbbeb029d3c8b0ae20c3
       (reference "J2") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
     )
     (path "/d9e438eb-6a30-4ee6-9093-110527e75662"
